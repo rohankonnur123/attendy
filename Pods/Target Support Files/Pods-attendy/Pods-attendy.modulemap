@@ -1,0 +1,6 @@
+framework module Pods_attendy {
+  umbrella header "Pods-attendy-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281D6F79203669BD00751F44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281D6F78203669BD00751F44 /* GoogleService-Info.plist */; };
+		284BFB582039DEE7001F18BD /* studentLogInController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284BFB572039DEE7001F18BD /* studentLogInController2.swift */; };
+		284BFB592039EC66001F18BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B414E12034EF730087C767 /* Assets.xcassets */; };
+		284BFB5E2039FB95001F18BD /* Inst for Stud.png in Resources */ = {isa = PBXBuildFile; fileRef = 284BFB5C2039FB94001F18BD /* Inst for Stud.png */; };
+		284BFB5F2039FB95001F18BD /* Inst for Inst.png in Resources */ = {isa = PBXBuildFile; fileRef = 284BFB5D2039FB94001F18BD /* Inst for Inst.png */; };
 		28B414D82034EF730087C767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B414D72034EF730087C767 /* AppDelegate.swift */; };
 		28B414DA2034EF730087C767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B414D92034EF730087C767 /* ViewController.swift */; };
 		28B414DD2034EF730087C767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B414DB2034EF730087C767 /* Main.storyboard */; };
 		28B414E02034EF730087C767 /* attendy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28B414DE2034EF730087C767 /* attendy.xcdatamodeld */; };
-		28B414E22034EF730087C767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B414E12034EF730087C767 /* Assets.xcassets */; };
 		28B414E52034EF730087C767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B414E32034EF730087C767 /* LaunchScreen.storyboard */; };
+		28B414ED2034EFB40087C767 /* instructionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B414EC2034EFB40087C767 /* instructionsController.swift */; };
+		28B414F1203509A20087C767 /* instructorLogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B414F0203509A20087C767 /* instructorLogInController.swift */; };
+		28B414F3203512640087C767 /* studentParticipationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B414F2203512640087C767 /* studentParticipationController.swift */; };
+		28B414F520351F660087C767 /* instructorWelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B414F420351F660087C767 /* instructorWelcomeController.swift */; };
+		28B414F7203635F50087C767 /* studentRegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B414F6203635F50087C767 /* studentRegistrationController.swift */; };
+		28B414FB20365C1C0087C767 /* instructorQRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B414FA20365C1C0087C767 /* instructorQRController.swift */; };
+		28D8CAFB2036B3D200EA2FB1 /* tableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8CAFA2036B3D200EA2FB1 /* tableListViewController.swift */; };
+		28D8CAFD2036B71C00EA2FB1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8CAFC2036B71C00EA2FB1 /* User.swift */; };
+		28D8CAFF2037B50600EA2FB1 /* instructorRegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8CAFE2037B50600EA2FB1 /* instructorRegistrationController.swift */; };
+		28D8CB012038F7DD00EA2FB1 /* Buzzer.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB002038F7DD00EA2FB1 /* Buzzer.png */; };
+		28D8CB032038F9D600EA2FB1 /* Buzzernew.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB022038F9D600EA2FB1 /* Buzzernew.png */; };
+		28D8CB052038FB3B00EA2FB1 /* Welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB042038FB3A00EA2FB1 /* Welcome.png */; };
+		28D8CB072039015700EA2FB1 /* studentInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8CB062039015700EA2FB1 /* studentInstructions.swift */; };
+		28D8CB092039017E00EA2FB1 /* instructorInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D8CB082039017E00EA2FB1 /* instructorInstructions.swift */; };
+		28D8CB0B20390C9B00EA2FB1 /* Welcome (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB0A20390C9B00EA2FB1 /* Welcome (2).png */; };
+		28D8CB0E20390EC300EA2FB1 /* Instructors.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB0C20390EC200EA2FB1 /* Instructors.png */; };
+		28D8CB0F20390EC300EA2FB1 /* Students.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB0D20390EC300EA2FB1 /* Students.png */; };
+		28D8CB11203912CC00EA2FB1 /* Buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB10203912CB00EA2FB1 /* Buttons.png */; };
+		28D8CB132039154A00EA2FB1 /* Welcome (6).png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB122039154900EA2FB1 /* Welcome (6).png */; };
+		28D8CB152039157900EA2FB1 /* Welc Instructor.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8CB142039157900EA2FB1 /* Welc Instructor.png */; };
+		7F1BD11A34D5E71D2289B5AD /* Pods_attendy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50939756DE6AC114E19B0B3 /* Pods_attendy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		281D6F78203669BD00751F44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		284BFB572039DEE7001F18BD /* studentLogInController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentLogInController2.swift; sourceTree = "<group>"; };
+		284BFB5C2039FB94001F18BD /* Inst for Stud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Inst for Stud.png"; sourceTree = "<group>"; };
+		284BFB5D2039FB94001F18BD /* Inst for Inst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Inst for Inst.png"; sourceTree = "<group>"; };
 		28B414D42034EF730087C767 /* attendy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = attendy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B414D72034EF730087C767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28B414D92034EF730087C767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +53,29 @@
 		28B414E12034EF730087C767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B414E42034EF730087C767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28B414E62034EF730087C767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B414EC2034EFB40087C767 /* instructionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructionsController.swift; sourceTree = "<group>"; };
+		28B414F0203509A20087C767 /* instructorLogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorLogInController.swift; sourceTree = "<group>"; };
+		28B414F2203512640087C767 /* studentParticipationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentParticipationController.swift; sourceTree = "<group>"; };
+		28B414F420351F660087C767 /* instructorWelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorWelcomeController.swift; sourceTree = "<group>"; };
+		28B414F6203635F50087C767 /* studentRegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentRegistrationController.swift; sourceTree = "<group>"; };
+		28B414FA20365C1C0087C767 /* instructorQRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorQRController.swift; sourceTree = "<group>"; };
+		28D8CAFA2036B3D200EA2FB1 /* tableListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableListViewController.swift; sourceTree = "<group>"; };
+		28D8CAFC2036B71C00EA2FB1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		28D8CAFE2037B50600EA2FB1 /* instructorRegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorRegistrationController.swift; sourceTree = "<group>"; };
+		28D8CB002038F7DD00EA2FB1 /* Buzzer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buzzer.png; sourceTree = "<group>"; };
+		28D8CB022038F9D600EA2FB1 /* Buzzernew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buzzernew.png; sourceTree = "<group>"; };
+		28D8CB042038FB3A00EA2FB1 /* Welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome.png; sourceTree = "<group>"; };
+		28D8CB062039015700EA2FB1 /* studentInstructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentInstructions.swift; sourceTree = "<group>"; };
+		28D8CB082039017E00EA2FB1 /* instructorInstructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorInstructions.swift; sourceTree = "<group>"; };
+		28D8CB0A20390C9B00EA2FB1 /* Welcome (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welcome (2).png"; sourceTree = "<group>"; };
+		28D8CB0C20390EC200EA2FB1 /* Instructors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructors.png; sourceTree = "<group>"; };
+		28D8CB0D20390EC300EA2FB1 /* Students.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Students.png; sourceTree = "<group>"; };
+		28D8CB10203912CB00EA2FB1 /* Buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buttons.png; sourceTree = "<group>"; };
+		28D8CB122039154900EA2FB1 /* Welcome (6).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welcome (6).png"; sourceTree = "<group>"; };
+		28D8CB142039157900EA2FB1 /* Welc Instructor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welc Instructor.png"; sourceTree = "<group>"; };
+		B50939756DE6AC114E19B0B3 /* Pods_attendy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_attendy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B785637B42F8CC5E8BE4A159 /* Pods-attendy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attendy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-attendy/Pods-attendy.debug.xcconfig"; sourceTree = "<group>"; };
+		E5647788024ED3B67348A0F8 /* Pods-attendy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attendy.release.xcconfig"; path = "Pods/Target Support Files/Pods-attendy/Pods-attendy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1BD11A34D5E71D2289B5AD /* Pods_attendy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +95,8 @@
 			children = (
 				28B414D62034EF730087C767 /* attendy */,
 				28B414D52034EF730087C767 /* Products */,
+				683B2EFB4FA02198058D8527 /* Pods */,
+				94CB48534975D049CC740656 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +111,56 @@
 		28B414D62034EF730087C767 /* attendy */ = {
 			isa = PBXGroup;
 			children = (
+				281D6F78203669BD00751F44 /* GoogleService-Info.plist */,
 				28B414D72034EF730087C767 /* AppDelegate.swift */,
 				28B414D92034EF730087C767 /* ViewController.swift */,
+				28B414EC2034EFB40087C767 /* instructionsController.swift */,
 				28B414DB2034EF730087C767 /* Main.storyboard */,
+				28B414F6203635F50087C767 /* studentRegistrationController.swift */,
+				28B414F420351F660087C767 /* instructorWelcomeController.swift */,
+				28B414F2203512640087C767 /* studentParticipationController.swift */,
+				28B414FA20365C1C0087C767 /* instructorQRController.swift */,
 				28B414E12034EF730087C767 /* Assets.xcassets */,
 				28B414E32034EF730087C767 /* LaunchScreen.storyboard */,
 				28B414E62034EF730087C767 /* Info.plist */,
 				28B414DE2034EF730087C767 /* attendy.xcdatamodeld */,
+				28D8CAFA2036B3D200EA2FB1 /* tableListViewController.swift */,
+				28D8CAFC2036B71C00EA2FB1 /* User.swift */,
+				28D8CAFE2037B50600EA2FB1 /* instructorRegistrationController.swift */,
+				28D8CB10203912CB00EA2FB1 /* Buttons.png */,
+				28D8CB022038F9D600EA2FB1 /* Buzzernew.png */,
+				28D8CB142039157900EA2FB1 /* Welc Instructor.png */,
+				28D8CB042038FB3A00EA2FB1 /* Welcome.png */,
+				28D8CB122039154900EA2FB1 /* Welcome (6).png */,
+				28D8CB0C20390EC200EA2FB1 /* Instructors.png */,
+				284BFB5D2039FB94001F18BD /* Inst for Inst.png */,
+				284BFB5C2039FB94001F18BD /* Inst for Stud.png */,
+				28D8CB0D20390EC300EA2FB1 /* Students.png */,
+				28D8CB0A20390C9B00EA2FB1 /* Welcome (2).png */,
+				28D8CB002038F7DD00EA2FB1 /* Buzzer.png */,
+				28D8CB062039015700EA2FB1 /* studentInstructions.swift */,
+				28D8CB082039017E00EA2FB1 /* instructorInstructions.swift */,
+				28B414F0203509A20087C767 /* instructorLogInController.swift */,
+				284BFB572039DEE7001F18BD /* studentLogInController2.swift */,
 			);
 			path = attendy;
+			sourceTree = "<group>";
+		};
+		683B2EFB4FA02198058D8527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B785637B42F8CC5E8BE4A159 /* Pods-attendy.debug.xcconfig */,
+				E5647788024ED3B67348A0F8 /* Pods-attendy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94CB48534975D049CC740656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50939756DE6AC114E19B0B3 /* Pods_attendy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B414E92034EF740087C767 /* Build configuration list for PBXNativeTarget "attendy" */;
 			buildPhases = (
+				D0794EE1E9E7F3EFE5D8C21C /* [CP] Check Pods Manifest.lock */,
 				28B414D02034EF730087C767 /* Sources */,
 				28B414D12034EF730087C767 /* Frameworks */,
 				28B414D22034EF730087C767 /* Resources */,
+				042774D7084D9CC72AEDD350 /* [CP] Embed Pods Frameworks */,
+				5A32373C7C95C09F608D9517 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,22 +225,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D8CB032038F9D600EA2FB1 /* Buzzernew.png in Resources */,
+				284BFB5E2039FB95001F18BD /* Inst for Stud.png in Resources */,
+				28D8CB132039154A00EA2FB1 /* Welcome (6).png in Resources */,
+				28D8CB152039157900EA2FB1 /* Welc Instructor.png in Resources */,
+				28D8CB0B20390C9B00EA2FB1 /* Welcome (2).png in Resources */,
+				28D8CB0E20390EC300EA2FB1 /* Instructors.png in Resources */,
+				28D8CB0F20390EC300EA2FB1 /* Students.png in Resources */,
+				284BFB592039EC66001F18BD /* Assets.xcassets in Resources */,
 				28B414E52034EF730087C767 /* LaunchScreen.storyboard in Resources */,
-				28B414E22034EF730087C767 /* Assets.xcassets in Resources */,
 				28B414DD2034EF730087C767 /* Main.storyboard in Resources */,
+				284BFB5F2039FB95001F18BD /* Inst for Inst.png in Resources */,
+				281D6F79203669BD00751F44 /* GoogleService-Info.plist in Resources */,
+				28D8CB11203912CC00EA2FB1 /* Buttons.png in Resources */,
+				28D8CB052038FB3B00EA2FB1 /* Welcome.png in Resources */,
+				28D8CB012038F7DD00EA2FB1 /* Buzzer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042774D7084D9CC72AEDD350 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-attendy/Pods-attendy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-attendy/Pods-attendy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A32373C7C95C09F608D9517 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-attendy/Pods-attendy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0794EE1E9E7F3EFE5D8C21C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-attendy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28B414D02034EF730087C767 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D8CB092039017E00EA2FB1 /* instructorInstructions.swift in Sources */,
+				28B414F1203509A20087C767 /* instructorLogInController.swift in Sources */,
+				28B414ED2034EFB40087C767 /* instructionsController.swift in Sources */,
 				28B414DA2034EF730087C767 /* ViewController.swift in Sources */,
+				28B414F520351F660087C767 /* instructorWelcomeController.swift in Sources */,
+				28D8CB072039015700EA2FB1 /* studentInstructions.swift in Sources */,
+				28D8CAFB2036B3D200EA2FB1 /* tableListViewController.swift in Sources */,
 				28B414E02034EF730087C767 /* attendy.xcdatamodeld in Sources */,
+				284BFB582039DEE7001F18BD /* studentLogInController2.swift in Sources */,
 				28B414D82034EF730087C767 /* AppDelegate.swift in Sources */,
+				28B414F7203635F50087C767 /* studentRegistrationController.swift in Sources */,
+				28D8CAFD2036B71C00EA2FB1 /* User.swift in Sources */,
+				28B414F3203512640087C767 /* studentParticipationController.swift in Sources */,
+				28D8CAFF2037B50600EA2FB1 /* instructorRegistrationController.swift in Sources */,
+				28B414FB20365C1C0087C767 /* instructorQRController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +457,14 @@
 		};
 		28B414EA2034EF740087C767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B785637B42F8CC5E8BE4A159 /* Pods-attendy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q267DK86Q4;
+				DEVELOPMENT_TEAM = Y5N78CGV77;
 				INFOPLIST_FILE = attendy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RohanKonnur.attendy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoroKoko.attendy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,13 +473,14 @@
 		};
 		28B414EB2034EF740087C767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5647788024ED3B67348A0F8 /* Pods-attendy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q267DK86Q4;
+				DEVELOPMENT_TEAM = Y5N78CGV77;
 				INFOPLIST_FILE = attendy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RohanKonnur.attendy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoroKoko.attendy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
